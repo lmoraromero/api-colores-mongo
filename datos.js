@@ -1,7 +1,3 @@
-//leer .env y crear las variables de entorno
-import dotenv from "dotenv";
-dotenv.config();
-
 
 //--------------------------------------------------
 import {MongoClient, ObjectId} from "mongodb";
