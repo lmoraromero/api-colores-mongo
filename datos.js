@@ -7,7 +7,7 @@ dotenv.config();
 import {MongoClient, ObjectId} from "mongodb";
 
 function conectar(){
-    return MongoClient.connect(process.env.CONECTION);
+    return MongoClient.connect(process.env.URL);
 }
 
 export function leerColores(){
@@ -79,7 +79,7 @@ export function borrarColor(id){
     });
 }
 
-
+//pruebas
 /*
 crearColor({r: 0, g: 100, b: 0})
 .then(id => console.log(id))
